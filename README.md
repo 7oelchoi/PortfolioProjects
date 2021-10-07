@@ -25,7 +25,7 @@
       </ul>
     </li>
     <li>
-      <a href="#Cyclistic">Cyclistic Project</a>
+      <a href="#Cyclistic-Project">Cyclistic Project</a>
     </li>
   </ol>
 </details>
