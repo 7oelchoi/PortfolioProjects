@@ -19,13 +19,12 @@
     </li>
     <li>
       <a href="#COVID-Project">COVID Project</a>
-      <ul>
-        <li><a href="#queries">Queries</a></li>
-        <li><a href="#visualization">Visualization</a></li>
-      </ul>
     </li>
     <li>
       <a href="#Cyclistic-Project">Cyclistic Project</a>
+    </li>
+    <li>
+      <a href="#Housing-Project">Housing Project</a>
     </li>
   </ol>
 </details>
@@ -79,6 +78,22 @@ In this project I take data from https://divvy-tripdata.s3.amazonaws.com/index.h
 
 A thorough documentations on each step is provided in https://github.com/7oelchoi/PortfolioProjects/blob/main/Cyclistic/Cyclistic_documentation.html.
 
-Here the language R is used with RStudio and Markdown for the documentation. Visualizations are created by using the (`ggplot2') package. Tidyverse and multiple other packages are used too.
+Here the language R is used with RStudio and Markdown for the documentation. Visualizations are created by using the ggplot2 package. Tidyverse and multiple other packages are used too.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- HOUSING PROJECT -->
+## Housing Project
+
+This project inspects a data set on housing sales. Here, I used SQL to clean the data using various methods. 
+
+I used SQL and the Microsoft SQL Server Management Studio to perform the cleaning steps.
+Here are some of the cleaning steps performed:
+
+* Removing unnecessary information from columns
+* Splitting columns into multiple different ones
+* Populateing NULL values
+* Removing inconsistencies
+* Removing duplicate entries
+
+A more detailed description on the data cleaning process is shown in https://github.com/7oelchoi/PortfolioProjects/blob/main/Housing/Documentation.pdf. The documentation was done using LaTeX.
