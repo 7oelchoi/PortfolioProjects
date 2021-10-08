@@ -14560,6 +14560,9 @@ a.anchor-link {
     <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;AmazonProducts.csv&#39;</span><span class="p">,</span> <span class="s1">&#39;a+&#39;</span><span class="p">,</span> <span class="n">newline</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;UTF8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
         <span class="n">writer</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">writer</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
         <span class="n">writer</span><span class="o">.</span><span class="n">writerow</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+        
+    <span class="k">if</span><span class="p">(</span><span class="n">price</span> <span class="o">&lt;</span> <span class="mi">300</span><span class="p">):</span>
+        <span class="n">send_mail</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -14634,7 +14637,24 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Function for sending an email</span>
+
+<span class="k">def</span> <span class="nf">send_mail</span><span class="p">():</span>
+    <span class="n">server</span> <span class="o">=</span> <span class="n">smtplib</span><span class="o">.</span><span class="n">SMTP_SSL</span><span class="p">(</span><span class="s1">&#39;smtp.gmail.com&#39;</span><span class="p">,</span><span class="mi">465</span><span class="p">)</span>
+    <span class="n">server</span><span class="o">.</span><span class="n">ehlo</span><span class="p">()</span>
+    <span class="c1">#server.starttls()</span>
+    <span class="n">server</span><span class="o">.</span><span class="n">ehlo</span><span class="p">()</span>
+    <span class="n">server</span><span class="o">.</span><span class="n">login</span><span class="p">(</span><span class="s1">&#39;joelchoi96@gmail.com&#39;</span><span class="p">,</span><span class="s1">&#39;xxxxxxxxxxx&#39;</span><span class="p">)</span>
+    
+    <span class="n">subject</span> <span class="o">=</span> <span class="s2">&quot;iPad sale!!&quot;</span>
+    <span class="n">body</span> <span class="o">=</span> <span class="s2">&quot;Hey Joel, the iPad you wanted to buy just went on sale and is now under 300 Euros! Click this link to see the offer: https://www.amazon.de/New-Apple-iPad-Air-10-9/dp/B08J6SHYHX/ref=sr_1_1_sspa?dchild=1&amp;keywords=ipad&amp;qid=1633715801&amp;sr=8-1-spons&amp;psc=1&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE1UjU4VUhURFBCS08mZW5jcnlwdGVkSWQ9QTAyNzIyNzVQTE4zRU9HTEVFSDUmZW5jcnlwdGVkQWRJZD1BMDgyOTU1MjJNWkw3MFRZUldaOUUmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&quot;</span>
+   
+    <span class="n">msg</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;Subject: </span><span class="si">{</span><span class="n">subject</span><span class="si">}</span><span class="se">\n\n</span><span class="si">{</span><span class="n">body</span><span class="si">}</span><span class="s2">&quot;</span>
+    
+    <span class="n">server</span><span class="o">.</span><span class="n">sendmail</span><span class="p">(</span>
+        <span class="s1">&#39;joelchoi96@gmail.com&#39;</span><span class="p">,</span>
+        <span class="n">msg</span>
+    <span class="p">)</span>
 </pre></div>
 
      </div>
