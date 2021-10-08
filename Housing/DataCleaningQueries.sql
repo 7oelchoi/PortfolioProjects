@@ -157,8 +157,4 @@ WHERE Row_Num > 1
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- Delete unused Columns --
 
-SELECT *
-FROM PortfolioProject.dbo.Housing
-
-ALTER TABLE Housing
-	DROP COLUMN OwnerAddress, PropertyAddress, SaleDate
+ 
