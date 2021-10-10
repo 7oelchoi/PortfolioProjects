@@ -26,6 +26,9 @@
     <li>
       <a href="#Housing-Project">Housing Project</a>
     </li>
+    <li>
+      <a href="#WebScraping-Project">Webscraping Project</a>
+    </li>
   </ol>
 </details>
 
@@ -52,6 +55,8 @@ For detailed implementation, feel free to look inside the folders!
 <!-- COVID PROJECT -->
 ## COVID Project
 
+| Data Analysis | SQL | Tableau |
+
 This project uses a data set on worldwide COVID-19 numbers. Especially, infections, deaths, and vaccinations are listed. In the project, the data is inspected, by comparing infection rates in regions, death rates and the correlation to vaccinations.
 After exploring the data, a dashboard is created using Tableau to provide a general overview and a tool for the user to interactively explore the data set.
 The data is derived from https://ourworldindata.org/covid-deaths and is pre cleaned and ready to use.
@@ -66,6 +71,8 @@ There is not a separate documentation of the steps taken, however each query is 
 
 <!-- CYCLISTIC PROJECT -->
 ## Cyclistic Project
+
+| Full project | R |
 
 The cyclistic project is a capstone project suggested in the Google Data Analytics Professional Certificate course. 
 In this project I take data from https://divvy-tripdata.s3.amazonaws.com/index.html, and perform 5 data analytics steps:
@@ -85,6 +92,8 @@ Here the language R is used with RStudio and Markdown for the documentation. Vis
 <!-- HOUSING PROJECT -->
 ## Housing Project
 
+| Data Cleaning | SQL | 
+
 This project inspects a data set on housing sales. Here, I used SQL to clean the data using various methods. 
 
 I used SQL and the Microsoft SQL Server Management Studio to perform the cleaning steps.
@@ -97,3 +106,15 @@ Here are some of the cleaning steps performed:
 * Removing duplicate entries
 
 A more detailed description on the data cleaning process is shown in https://github.com/7oelchoi/PortfolioProjects/blob/main/Housing/Documentation.pdf. The documentation was done using LaTeX.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- WEBSCRAPING PROJECT -->
+## Webscraping Project
+
+| Webscraping | Python | Beautifulsoup |
+
+Here, I use the library beautiful soup to extract data from a website and use it to create a dataframe. 
+It updates periodically and has the functionality of sending an email when the price of an iPad on amazon reaches a certain price.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
