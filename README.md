@@ -73,7 +73,8 @@ There is not a separate documentation of the steps taken, however each query is 
 <!-- CYCLISTIC PROJECT -->
 ## Cyclistic Project
 
-| Full project | R |
+ [Full Project](https://github.com/7oelchoi/PortfolioProjects/blob/main/Cyclistic/Cyclistic_documentation.pdf) | [R](https://github.com/7oelchoi/PortfolioProjects/blob/main/Cyclistic/Cyclistic.R)  
+ --- | ---
 
 The cyclistic project is a capstone project suggested in the Google Data Analytics Professional Certificate course. 
 In this project I take data from https://divvy-tripdata.s3.amazonaws.com/index.html, and perform 5 data analytics steps:
@@ -93,7 +94,8 @@ Here the language R is used with RStudio and Markdown for the documentation. Vis
 <!-- HOUSING PROJECT -->
 ## Housing Project
 
-| Data Cleaning | SQL | 
+Data Cleaning | SQL
+--- | ---
 
 This project inspects a data set on housing sales. Here, I used SQL to clean the data using various methods. 
 
@@ -113,7 +115,8 @@ A more detailed description on the data cleaning process is shown in https://git
 <!-- WEBSCRAPING PROJECT -->
 ## Webscraping Project
 
-| Webscraping | Python | Beautifulsoup |
+Webscraping | Python | Beautifulsoup
+--- | --- | ---
 
 Here, I use the library beautiful soup to extract data from a website and use it to create a dataframe. 
 It updates periodically and has the functionality of sending an email when the price of an iPad on amazon reaches a certain price.
