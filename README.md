@@ -55,7 +55,7 @@ For detailed implementation, feel free to look inside the folders!
 <!-- COVID PROJECT -->
 ## COVID Project
 
-Data Analysis | SQL | Tableau 
+Data Analysis | [SQL](https://github.com/7oelchoi/PortfolioProjects/blob/main/COVID/Queries/COVID_Portfolio.sql) | [Tableau](https://github.com/7oelchoi/PortfolioProjects/blob/main/COVID/Visualization/Covid_Dashboard.png)
 --- | --- | --- 
 
 This project uses a data set on worldwide COVID-19 numbers. Especially, infections, deaths, and vaccinations are listed. In the project, the data is inspected, by comparing infection rates in regions, death rates and the correlation to vaccinations.
@@ -94,7 +94,7 @@ Here the language R is used with RStudio and Markdown for the documentation. Vis
 <!-- HOUSING PROJECT -->
 ## Housing Project
 
-Data Cleaning | SQL
+[Data Cleaning](https://github.com/7oelchoi/PortfolioProjects/blob/main/Housing/Documentation.pdf)  | [SQL](https://github.com/7oelchoi/PortfolioProjects/blob/main/Housing/DataCleaningQueries.sql) 
 --- | ---
 
 This project inspects a data set on housing sales. Here, I used SQL to clean the data using various methods. 
@@ -115,7 +115,7 @@ A more detailed description on the data cleaning process is shown in https://git
 <!-- WEBSCRAPING PROJECT -->
 ## Webscraping Project
 
-Webscraping | Python | Beautifulsoup
+Webscraping | [Data Cleaning](https://github.com/7oelchoi/PortfolioProjects/blob/main/WebScraping/Amazon_Webscraper.ipynb)  | Beautifulsoup
 --- | --- | ---
 
 Here, I use the library beautiful soup to extract data from a website and use it to create a dataframe. 
