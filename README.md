@@ -55,7 +55,8 @@ For detailed implementation, feel free to look inside the folders!
 <!-- COVID PROJECT -->
 ## COVID Project
 
-| Data Analysis | SQL | Tableau |
+Data Analysis | SQL | Tableau 
+--- | --- | --- 
 
 This project uses a data set on worldwide COVID-19 numbers. Especially, infections, deaths, and vaccinations are listed. In the project, the data is inspected, by comparing infection rates in regions, death rates and the correlation to vaccinations.
 After exploring the data, a dashboard is created using Tableau to provide a general overview and a tool for the user to interactively explore the data set.
