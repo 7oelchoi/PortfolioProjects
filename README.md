@@ -7,7 +7,7 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-
+![](Banner.svg)
 
 
 <!-- TABLE OF CONTENTS -->
