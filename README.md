@@ -18,6 +18,9 @@
       <a href="#about-the-repository">About the Repository</a>
     </li>
     <li>
+      <a href="#CCF">Credit Card Fraud/a>
+    </li>
+    <li>
       <a href="#COVID-Project">COVID Project</a>
     </li>
     <li>
@@ -51,6 +54,17 @@ For detailed implementation, feel free to look inside the folders!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- CCF -->
+## Credit Card Transactions Fraud
+
+ [Kernel](https://github.com/7oelchoi/PortfolioProjects/blob/main/Creditcard_fraud/Credit%20Card%20Fraud.ipynb) | Python | Machine Learning 
+ --- | --- | ---
+
+This data set is derived from kaggle and offers an insight to fraudulent and valid credit card transactions. It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase.
+The dataset contains transactions made by credit cards in September 2013 by European cardholders.
+This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
+
+The Kernel contains an exploration and balancing of the dataset, and the training and evaluation of models using different classification methods.
 
 <!-- COVID PROJECT -->
 ## COVID Project
